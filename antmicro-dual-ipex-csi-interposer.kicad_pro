@@ -45,10 +45,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -377,8 +383,29 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Z_100",
-        "nets": [],
+        "name": "100Ohm-diff_MIPI",
+        "nets": [
+          "CAM1_CSI_CLK_N",
+          "CAM1_CSI_CLK_P",
+          "CAM1_CSI_D0_N",
+          "CAM1_CSI_D0_P",
+          "CAM1_CSI_D1_N",
+          "CAM1_CSI_D1_P",
+          "CAM1_CSI_D2_N",
+          "CAM1_CSI_D2_P",
+          "CAM1_CSI_D3_N",
+          "CAM1_CSI_D3_P",
+          "CAM2_CSI_CLK_N",
+          "CAM2_CSI_CLK_P",
+          "CAM2_CSI_D0_N",
+          "CAM2_CSI_D0_P",
+          "CAM2_CSI_D1_N",
+          "CAM2_CSI_D1_P",
+          "CAM2_CSI_D2_N",
+          "CAM2_CSI_D2_P",
+          "CAM2_CSI_D3_N",
+          "CAM2_CSI_D3_P"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
