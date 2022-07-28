@@ -18,7 +18,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:MSAK24025P30" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:MSAK24025P30" 
             (id 2) 
             (at 7.62 13.97 90) 
             (effects 
@@ -681,7 +681,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm" 
             (id 2) 
             (at 20.32 17.78 0) 
             (effects 
@@ -729,7 +729,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:WE_68715014522" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:WE_68715014522" 
             (id 2) 
             (at -5.08 -90.17 0) 
             (effects 
@@ -1783,7 +1783,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:0402-res" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:0402-res" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -1865,7 +1865,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:oshw-logo" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:oshw-logo" 
             (id 2) 
             (at 0.508 -6.096 0) 
             (effects 
@@ -1900,7 +1900,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)))) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:antmicro-logo" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:antmicro-logo" 
             (id 2) 
             (at -2.54 6.35 0) 
             (effects 
@@ -1937,7 +1937,7 @@
             (effects 
                 (font 
                     (size 1.27 1.27)) hide)) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 
@@ -1991,7 +1991,7 @@
             (effects 
                 (font 
                     (size 1.524 1.524)) hide)) 
-        (property "Footprint" "antmicro-dual-ipex-csi-interposer-footprints:0402-cap" 
+        (property "Footprint" "dual-ipex-csi-interposer-footprints:0402-cap" 
             (id 2) 
             (at 5.08 5.08 0) 
             (effects 

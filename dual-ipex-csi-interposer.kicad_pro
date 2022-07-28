@@ -352,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "antmicro-dual-ipex-csi-interposer.kicad_pro",
+    "filename": "dual-ipex-csi-interposer.kicad_pro",
     "version": 1
   },
   "net_settings": {
