@@ -142,7 +142,7 @@
   (net 54 "/CAM_CSI_CAM_EN")
   (net 55 "/CAM_CSI_CAM_XVS")
 
-  (footprint "antmicro-footprints:WE_68715014522" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:WE_68715014522" (layer "F.Cu")
     (tedit 5D9CB84E) (tstamp 00000000-0000-0000-0000-000061eb025a)
     (at 112.5 132.15 90)
     (property "MPN" "68715014522 ")
@@ -279,14 +279,14 @@
     (pad "~" smd rect locked (at 14.2 -1.25 90) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 85f064cd-3547-4cfb-92b0-08066e6243bd))
     (pad "~" smd rect locked (at 14.2 2.45 90) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5eb9988-d4c5-49a0-a10f-fcbd43f538ac))
     (pad "~" smd rect locked (at -14.2 -1.25 90) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df9c2ed5-acf7-4344-a02a-8e14786d0a01))
-    (model "${ANT3DMDL}/WE_68715014522.stp"
+    (model "${KIPRJMOD}/lib/3d-models/WE_68715014522.stp"
       (offset (xyz 0 -2.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 -180))
     )
   )
 
-  (footprint "antmicro-footprints:oshw-logo" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:oshw-logo" (layer "F.Cu")
     (tedit 5E4A93CD) (tstamp 00000000-0000-0000-0000-000061eb089e)
     (at 103.8 156.25 90)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -4821,7 +4821,7 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp f1903db3-b232-4ee9-9f8a-29cfdf3675cd))
   )
 
-  (footprint "antmicro-footprints:antmicro-logo_scaled_12mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:antmicro-logo_scaled_12mm" (layer "F.Cu")
     (tedit 5E4A93F3) (tstamp 00000000-0000-0000-0000-000061eb0928)
     (at 102.5 119 90)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -5932,7 +5932,7 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp f87d0d1e-4a0e-4da4-b5a8-7bc01aa2f538))
   )
 
-  (footprint "antmicro-footprints:mounting-hole-2.2mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm" (layer "F.Cu")
     (tedit 5F06C528) (tstamp 00000000-0000-0000-0000-000061eb1c95)
     (at 124.25 162.1)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -5950,7 +5950,7 @@
     (pad "1" thru_hole circle locked (at 0 0) (size 3.7 3.7) (drill 2.2) (layers *.Cu *.Mask) (tstamp ed8e956e-3493-45a4-8e1f-e680be43a814))
   )
 
-  (footprint "antmicro-footprints:mounting-hole-2.2mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm" (layer "F.Cu")
     (tedit 5F06C528) (tstamp 00000000-0000-0000-0000-000061eb1ca1)
     (at 102.25 162.1)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -5968,7 +5968,7 @@
     (pad "1" thru_hole circle locked (at 0 0) (size 3.7 3.7) (drill 2.2) (layers *.Cu *.Mask) (tstamp 6c61c7b2-c2b8-4d68-9ff0-1b35b0fae52c))
   )
 
-  (footprint "antmicro-footprints:mounting-hole-2.2mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm" (layer "F.Cu")
     (tedit 5F06C528) (tstamp 00000000-0000-0000-0000-000061eb1cb9)
     (at 102.25 102.27)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -5986,7 +5986,7 @@
     (pad "1" thru_hole circle locked (at 0 0) (size 3.7 3.7) (drill 2.2) (layers *.Cu *.Mask) (tstamp 9bee44f3-e060-4eab-9fc8-a4b739772447))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 00000000-0000-0000-0000-00006213d576)
     (at 113.975 111.325 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6022,14 +6022,14 @@
       (net 8 "CAM1_SCL") (pintype "passive") (tstamp 93b1a64f-b702-4aea-82c3-197cf725f777))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/CAM_R_SCL") (pintype "passive") (tstamp 4b09e39f-87ab-4b25-bcfc-04e9b0050dda))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 00000000-0000-0000-0000-00006213d89b)
     (at 113.975 110.25 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6065,14 +6065,14 @@
       (net 9 "CAM1_SDA") (pintype "passive") (tstamp 1dbf5d79-48a6-48ce-b661-db251d5896c0))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "/CAM_R_SDA") (pintype "passive") (tstamp 65f38edf-1085-466a-a3f2-62878e6a0281))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dcae)
     (at 112.2 108.9 180)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6091,7 +6091,7 @@
       (net 55 "/CAM_CSI_CAM_XVS") (pintype "passive") (tstamp 334f2bae-8f2b-4908-abf0-a492b98124e2))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dcba)
     (at 112.2 107.5492 180)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6110,7 +6110,7 @@
       (net 54 "/CAM_CSI_CAM_EN") (pintype "passive") (tstamp 1af966d6-a08c-480a-8dc5-2b817a9d49e1))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dcc6)
     (at 118.95 104.25 180)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6129,7 +6129,7 @@
       (net 46 "CAM1_CSI_CAM_CLK") (pintype "passive") (tstamp b2dcefa4-a8f3-4a2a-9169-29936dba2d73))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dcd2)
     (at 120.35 104.25 180)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6148,7 +6148,7 @@
       (net 47 "CAM1_CSI_CAM_XTRIG") (pintype "passive") (tstamp 574620c4-36ce-4ec0-b7e7-0eee54927d38))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dcee)
     (at 112.15 111.75)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6167,7 +6167,7 @@
       (net 4 "/CAM_R_SCL") (pintype "passive") (tstamp 9b746ef6-06a6-475a-b881-79b62932c786))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dcfa)
     (at 112.1 156.4)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6186,7 +6186,7 @@
       (net 6 "/CAM_L_SCL") (pintype "passive") (tstamp 03722f9b-4907-45f6-9e9b-9f9585a910e0))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dd12)
     (at 112.1 154.9)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6205,7 +6205,7 @@
       (net 7 "/CAM_L_SDA") (pintype "passive") (tstamp 31328206-080e-44aa-b786-fee7cc269ef2))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 00000000-0000-0000-0000-00006213dd34)
     (at 112.15 110.4008)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6224,7 +6224,7 @@
       (net 5 "/CAM_R_SDA") (pintype "passive") (tstamp bfe7b992-d571-4e6f-b108-0a6cae79ada8))
   )
 
-  (footprint "antmicro-footprints:mounting-hole-2.2mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:mounting-hole-2.2mm" (layer "F.Cu")
     (tedit 5F06C528) (tstamp 00000000-0000-0000-0000-0000621a4ebe)
     (at 124.25 102.25)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6242,7 +6242,7 @@
     (pad "1" thru_hole circle locked (at 0 0) (size 3.7 3.7) (drill 2.2) (layers *.Cu *.Mask) (tstamp 1aacdd64-23d3-4b2a-b716-5785cc1234d3))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 13689719-0d3d-40bb-a219-7635693c2fd4)
     (at 113.96 154.03 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6278,14 +6278,14 @@
       (net 51 "CAM2_CSI_CAM_XVS") (pintype "passive") (tstamp 475cfe93-d667-4a53-9214-51f7b6ff6090))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 55 "/CAM_CSI_CAM_XVS") (pintype "passive") (tstamp c589dce7-f464-4828-a4b6-afc0a0b90394))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 18eecb7c-f83a-4b09-a45a-87a29a3e5bb5)
     (at 107.08 104.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6321,14 +6321,14 @@
       (net 3 "3V3_FFC") (pintype "passive") (tstamp 89793be2-df6a-4627-9484-3c168e8ca37a))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 1bc85f19-e4ba-4e8b-858f-32d0cf13677a))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 2ddf6a48-8b40-4bba-a364-3732f0f07160)
     (at 113.975 109.2 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6364,14 +6364,14 @@
       (net 45 "CAM1_CSI_CAM_XVS") (pintype "passive") (tstamp 72f836f0-d805-4137-85ea-01498153e8a8))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 55 "/CAM_CSI_CAM_XVS") (pintype "passive") (tstamp 205db365-aed5-4bc4-96f7-219278f43d11))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 3c8f6b0a-eb26-4e68-bfb3-b7c3e9fb24bb)
     (at 113.975 108.125 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6407,14 +6407,14 @@
       (net 44 "CAM1_CSI_CAM_EN") (pintype "passive") (tstamp 30e84e27-ed08-4e86-b4bf-bee81e9930a5))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "/CAM_CSI_CAM_EN") (pintype "passive") (tstamp 0f572b8b-5f7d-4b4c-87a5-8c609f5c772f))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 3fc74e6f-2875-4eaf-9512-74a1ae4e4c88)
     (at 118.9 161.3 90)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6433,7 +6433,7 @@
       (net 52 "CAM2_CSI_CAM_CLK") (pintype "passive") (tstamp 434e0f37-42bd-4366-88cb-6c57830a4171))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_1mm" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:Testpoint_smd_1mm" (layer "F.Cu")
     (tedit 5E4A935B) (tstamp 5ece8cdf-ea6d-4d33-866a-8bfe90f7847f)
     (at 120.3 161.3 90)
     (property "Sheetfile" "antmicro-dual-ipex-csi-interposer.kicad_sch")
@@ -6452,7 +6452,7 @@
       (net 53 "CAM2_CSI_CAM_XTRIG") (pintype "passive") (tstamp 66773233-c09f-4dc0-bdba-a8a11d63560d))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp c5129ffd-7128-4896-a62a-5bffc6f386ef)
     (at 113.95 152.97 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6488,14 +6488,14 @@
       (net 50 "CAM2_CSI_CAM_EN") (pintype "passive") (tstamp 000c64b1-5964-42e0-b844-a3abc54e5e0e))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "/CAM_CSI_CAM_EN") (pintype "passive") (tstamp e9c03d0a-d077-44ad-ac7e-b122935e2097))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp cd4d84ca-6d99-4216-b572-a7ccd88338af)
     (at 107.079999 101.706 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6531,14 +6531,14 @@
       (net 2 "5V0_SYS") (pintype "passive") (tstamp 26de573f-1610-474f-a0eb-5f4dcc458309))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 48b41076-7ac3-445e-ada2-7dc2005cb55d))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp d7a0c5b0-80a6-40e1-9907-0e30c587df2c)
     (at 113.96 155.07 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6574,14 +6574,14 @@
       (net 48 "CAM2_SDA") (pintype "passive") (tstamp 70dda7dd-e6b2-433e-beb5-0a85856831d3))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "/CAM_L_SDA") (pintype "passive") (tstamp a8d90628-bd07-4cee-8d39-84c1a669eb9d))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp d9b78efe-57f6-4f6b-bbae-529ff694c83c)
     (at 113.96 156.14 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6617,14 +6617,14 @@
       (net 49 "CAM2_SCL") (pintype "passive") (tstamp f53f8822-4080-4733-a416-819b313fdbb0))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "/CAM_L_SCL") (pintype "passive") (tstamp a09c4989-33e2-4509-9809-9c38f3807e71))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:MSAK24025P30" (layer "B.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:MSAK24025P30" (layer "B.Cu")
     (tedit 60F58E14) (tstamp 00000000-0000-0000-0000-000061eb143a)
     (at 123.5 117.75 90)
     (property "MPN" "MSAK24025P30")
@@ -6707,14 +6707,14 @@
       (net 2 "5V0_SYS") (pinfunction "Pin_30") (pintype "passive") (tstamp fe3cc426-b32c-41b0-a1b5-2faee39abf70))
     (pad "~" smd rect locked (at 9.18 -2.46 90) (size 2.7 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 297b8d5d-7555-47a9-bf4f-45ae0cf9248b))
     (pad "~" smd rect locked (at -9.18 -2.46 90) (size 2.7 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 3739c746-1704-414b-953d-097880a14da2))
-    (model "${ANT3DMDL}/20455-030E-xxC.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/20455-030E-xxC.STEP"
       (offset (xyz 0 -3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
   )
 
-  (footprint "antmicro-footprints:MSAK24025P30" (layer "B.Cu")
+  (footprint "antmicro-dual-ipex-csi-interposer-footprints:MSAK24025P30" (layer "B.Cu")
     (tedit 60F58E14) (tstamp 5071d3c7-fb16-459f-a78e-d21c87d941ec)
     (at 123.5 146.55 90)
     (property "MPN" "MSAK24025P30")
@@ -6797,7 +6797,7 @@
       (net 2 "5V0_SYS") (pinfunction "Pin_30") (pintype "passive") (tstamp 2dcbc9d5-ed68-46ff-ba9d-b401299c87ea))
     (pad "~" smd rect locked (at -9.18 -2.46 90) (size 2.7 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 817e4a43-cc9c-414d-8564-ddbe4da50c7c))
     (pad "~" smd rect locked (at 9.18 -2.46 90) (size 2.7 3) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp b502418a-81de-4bcc-a36e-122ddc6f5a51))
-    (model "${ANT3DMDL}/20455-030E-xxC.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/20455-030E-xxC.STEP"
       (offset (xyz 0 -3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
