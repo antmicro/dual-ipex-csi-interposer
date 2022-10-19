@@ -2,7 +2,7 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![Dual IPEX CSI Interposer Visualization](img/antmicro-dual-ipex-csi-interposer.png)
+![Dual IPEX CSI Interposer Visualization](img/dual-ipex-csi-interposer.png)
 
 ## Overview
 
