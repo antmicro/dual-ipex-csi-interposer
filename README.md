@@ -24,7 +24,7 @@ The main repository directory contains KiCad PCB project files, a [LICENSE](LICE
 The remaining files are stored in the following directories:
 
 * `lib` - contains the component libraries,
-* `doc` - contains the adapter [schematics](doc/antmicro-dual-ipex-csi-interposer.pdf),
+* `doc` - contains the adapter [schematics](doc/dual-ipex-csi-interposer.pdf),
 * `img` - contains the board visualization.
 
 ## Key features
