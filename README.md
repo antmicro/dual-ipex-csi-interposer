@@ -9,7 +9,7 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 This repository contains open hardware design files for the Dual I-PEX micro-coaxial CSI Interposer.
 The board serves as a 2-to-1 CSI-2 camera cable adapter.
 
-It features two 30-pin I-PEX camera connectors including 4-lane MIPI CSI-2 interface with I2C and power supply as well as a single upstream connector - 50-pin FFC, compatible with video processing boards created by Antmicro such as:
+It features two 30-pin I-PEX camera connectors with a 4-lane MIPI CSI-2 interface, I2C and power supply as well as a single upstream connector - 50-pin FFC, compatible with video processing boards created by Antmicro such as:
 
 * [TX2 Deep Learning Platform](https://github.com/antmicro/jetson-tx2-deep-learning-platform) supporting NVIDIA Jetson TX2 
 * [AGX CSI Adapter](https://github.com/antmicro/jetson-nano-baseboard) supporting NVIDIA Jetson Xavier AGX and NVIDIA Jetson Orin AGX
@@ -29,9 +29,9 @@ The remaining files are stored in the following directories:
 
 ## Key features
 
-* 50-pin dual CSI-2 FFC connector (host side),
+* 50-pin dual MIPI CSI-2 FFC connector (host side),
 * twin 30-wire I-PEX micro coax CSI-2 connectors (camera side) (interface compatible with the [Framos CSI Adapter](https://github.com/antmicro/framos-csi-adapter)),
-* 4-lane CSI-2 MIPI per camera.
+* 4-lane MIPI CSI-2 per camera.
 
 ## License
 
