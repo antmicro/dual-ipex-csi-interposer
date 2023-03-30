@@ -1,6 +1,8 @@
 # Dual I-PEX CSI Interposer
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
+
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/dual-ipex-csi-interposer)
 
 ![Dual IPEX CSI Interposer Visualization](img/dual-ipex-csi-interposer.png)
 
@@ -35,4 +37,4 @@ The remaining files are stored in the following directories:
 
 ## License
 
-[Apache-2.0](LICENSE)
+This project is published under the [Apache-2.0](LICENSE) license.
